@@ -274,14 +274,19 @@ class GridWorld:
                 if terminal:
                     self.reset()
                     break
-            self.update(
-                state_t,
-                state_t1,
-                returns,
-                action_t,
-                action_t1,
-                gamma**n_steps,
-            )
+            # exponentially weighted average
+            if n_steps > 0:
+                self.update(
+                    state_t,
+                    state_t1,
+                    returns,
+                    action_t,
+                    action_t1,
+                    gamma**n_steps,
+                )
+            # MC estimation
+            else:
+                self.q_values[state_t[0], state_t[1]][action_t] = np.average(returns)
             if terminal:
                 break
 
