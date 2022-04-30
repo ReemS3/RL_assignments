@@ -256,12 +256,13 @@ class GridWorld:
 
             action_t = self.choose_action(self.player_index, eps)
             state_t = list(self.player_index)
+            q_value_before = self.q_values[state_t[0], state_t[1]][action_t]
             returns = 0
             t = 0
             while t < n_steps or n_steps == 0:
                 # try all actions
                 self.visualise()
-                print(actions[action_t])
+                print("Performed Action:", actions[action_t])
                 sampling_results = self.step(action_t)
                 self.visualise()
 
@@ -274,7 +275,7 @@ class GridWorld:
                 if terminal:
                     self.reset()
                     break
-            # exponentially weighted average
+            # exponentially weighted average, i.e., SARSA update
             if n_steps > 0:
                 self.update(
                     state_t,
@@ -287,6 +288,10 @@ class GridWorld:
             # MC estimation
             else:
                 self.q_values[state_t[0], state_t[1]][action_t] = np.average(returns)
+            q_value_after = self.q_values[state_t[0], state_t[1]][action_t]
+            print(
+                f"Update Q-Value at state {state_t} from {q_value_before} to {q_value_after}"
+            )
             if terminal:
                 break
 
@@ -295,7 +300,7 @@ def main():
     """Just run this script to see the grid."""
     x = GridWorld(5, 5)
     # if you want to MC choose the number of steps == 0
-    x.solve(n_steps=0, episodes=500000)
+    x.solve(n_steps=1, episodes=500000)
 
 
 if __name__ == "__main__":
