@@ -275,7 +275,7 @@ class GridWorld:
                 if terminal:
                     self.reset()
                     break
-            # exponentially weighted average, i.e., SARSA update
+            # SARSA update
             if n_steps > 0:
                 self.update(
                     state_t,
