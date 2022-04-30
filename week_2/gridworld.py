@@ -1,9 +1,10 @@
 import random
-from unittest.loader import VALID_MODULE_NAME
 import numpy as np
 
 
 class GridWorld:
+    """Create a GridWord with SARSA/Monte Carlo to solve it."""
+
     def __init__(self, width=5, height=5):
         self.width, self.height = width, height
         self.tiles = np.zeros((width, height), dtype=object)
@@ -284,6 +285,7 @@ class GridWorld:
 
 
 def main():
+    """Just run this script to see the grid."""
     x = GridWorld(5, 5)
     # if you want to MC choose the number of steps equals to width*height, or SARSA
     x.solve(n_step=25, episodes=500000)
