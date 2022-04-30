@@ -235,7 +235,7 @@ class GridWorld:
 
         self.q_values[state_t[0], state_t[1]][action_t] = Q_t + alpha * (target - Q_t)
 
-    def solve(self, n_step=1, episodes=50000):
+    def solve(self, n_steps=1, episodes=50000):
         """Solve the problem using SARSA or Monte Carlo.
 
         Parameters:
@@ -257,7 +257,8 @@ class GridWorld:
             action_t = self.choose_action(self.player_index, eps)
             state_t = list(self.player_index)
             returns = 0
-            for t in range(n_step):
+            t = 0
+            while t < n_steps or n_steps == 0:
                 # try all actions
                 self.visualise()
                 print(actions[action_t])
@@ -268,6 +269,7 @@ class GridWorld:
                 state_t1, reward, terminal = sampling_results
                 action_t = action_t1
                 returns += reward * (gamma**t)
+                t += 1
 
                 if terminal:
                     self.reset()
@@ -278,7 +280,7 @@ class GridWorld:
                 returns,
                 action_t,
                 action_t1,
-                gamma**n_step,
+                gamma**n_steps,
             )
             if terminal:
                 break
@@ -287,8 +289,8 @@ class GridWorld:
 def main():
     """Just run this script to see the grid."""
     x = GridWorld(5, 5)
-    # if you want to MC choose the number of steps equals to width*height, or SARSA
-    x.solve(n_step=25, episodes=500000)
+    # if you want to MC choose the number of steps == 0
+    x.solve(n_steps=0, episodes=500000)
 
 
 if __name__ == "__main__":
