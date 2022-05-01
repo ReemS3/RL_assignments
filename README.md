@@ -1,3 +1,5 @@
+# Our theoretical assigments:
+  1. first assigment: [click here](https://docs.google.com/document/d/1wfQoETwvlQEOlmImN7frlZ_cyrmefeJ3kGPvyCAOYMU/edit?usp=sharing).
 # Review other groups' submission:
 ## Reviews of the first assigment:
   1. Review of group 11: [click here](https://docs.google.com/document/d/1hcpxc2AsfBZar40M7laWvFZJX5jcQfovioAXZVKinrU/edit?usp=sharing).
