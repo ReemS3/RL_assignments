@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 574, in render
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 127, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 114, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 41, in sample
+    self.env.render()
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 577, in render
+    raise DependencyNotInstalled(
+gym.error.DependencyNotInstalled: pygame is not installed, run `pip install gym[box2d]`

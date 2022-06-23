@@ -1,0 +1,20 @@
+WARNING:tensorflow:5 out of the last 5 calls to <function NeuralNetwork.call at 0x12ee1a670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function NeuralNetwork.call at 0x12eebfa60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: -335.60567910610587 eps: 0.989901 avg reward (last 100): -335.60567910610587 episode loss:  6.345067
+episode: 100 episode reward: -117.02095462914065 eps: 0.980050830419928 avg reward (last 100): -188.07073900981987 episode loss:  160.44597
+episode: 200 episode reward: -25.893593388725193 eps: 0.9702986765411791 avg reward (last 100): -185.1710286229276 episode loss:  123.65835
+episode: 300 episode reward: -84.52412030240454 eps: 0.960643563042708 avg reward (last 100): -148.2674814292124 episode loss:  105.635185
+episode: 400 episode reward: -155.0668145868109 eps: 0.9510845243085565 avg reward (last 100): -160.30398332834602 episode loss:  206.7431
+episode: 500 episode reward: -113.63598902235863 eps: 0.9416206043312847 avg reward (last 100): -160.48854718783357 episode loss:  141.13695
+episode: 600 episode reward: -71.26279979262803 eps: 0.9322508566163586 avg reward (last 100): -169.0741996381011 episode loss:  126.108086
+episode: 700 episode reward: -341.72622291897426 eps: 0.9229743440874912 avg reward (last 100): -168.76945674820115 episode loss:  140.08347
+episode: 800 episode reward: -58.3652190826151 eps: 0.913790138992923 avg reward (last 100): -160.07976835944166 episode loss:  135.90535
+episode: 900 episode reward: -130.07026371408642 eps: 0.9046973228126401 avg reward (last 100): -160.7140596191352 episode loss:  98.70901
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 125, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 108, in main
+    while dqn.target_network.trainable_weights != dqn.train_network.trainable_weights or first_time:
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 1070, in __bool__
+    return bool(self._numpy())
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()

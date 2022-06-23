@@ -1,0 +1,19 @@
+WARNING:tensorflow:5 out of the last 5 calls to <function NeuralNetwork.call at 0x13968c700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function NeuralNetwork.call at 0x139732af0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: -341.83882787112384 eps: 0.989901 avg reward (last 100): -341.83882787112384 episode loss:  9.240113
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 143, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 128, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 41, in sample
+    env.render()
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/core.py", line 343, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/wrappers/order_enforcing.py", line 51, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/wrappers/env_checker.py", line 57, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 672, in render
+    pygame.display.flip()
+KeyboardInterrupt

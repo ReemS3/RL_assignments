@@ -1,0 +1,484 @@
+2022-06-23 18:45:10,238 INFO    MainThread:50413 [internal.py:wandb_internal():90] W&B internal server running at pid: 50413, started at: 2022-06-23 18:45:10.237911
+2022-06-23 18:45:10,240 INFO    WriterThread:50413 [datastore.py:open_for_write():75] open: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/run-27b8v16o.wandb
+2022-06-23 18:45:10,243 DEBUG   SenderThread:50413 [sender.py:send():235] send: header
+2022-06-23 18:45:10,243 DEBUG   SenderThread:50413 [sender.py:send():235] send: run
+2022-06-23 18:45:10,556 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: check_version
+2022-06-23 18:45:10,556 INFO    SenderThread:50413 [dir_watcher.py:__init__():205] watching files in: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files
+2022-06-23 18:45:10,556 INFO    SenderThread:50413 [sender.py:_start_run_threads():812] run started: 27b8v16o with start time 1656002708
+2022-06-23 18:45:10,556 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:10,556 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:10,557 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: check_version
+2022-06-23 18:45:10,717 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: run_start
+2022-06-23 18:45:10,718 DEBUG   HandlerThread:50413 [meta.py:__init__():35] meta init
+2022-06-23 18:45:10,718 DEBUG   HandlerThread:50413 [meta.py:__init__():49] meta init done
+2022-06-23 18:45:10,718 DEBUG   HandlerThread:50413 [meta.py:probe():209] probe
+2022-06-23 18:45:10,720 DEBUG   HandlerThread:50413 [meta.py:_setup_git():199] setup git
+2022-06-23 18:45:10,780 DEBUG   HandlerThread:50413 [meta.py:_setup_git():206] setup git done
+2022-06-23 18:45:10,781 DEBUG   HandlerThread:50413 [meta.py:_save_pip():53] save pip
+2022-06-23 18:45:10,782 DEBUG   HandlerThread:50413 [meta.py:_save_pip():67] save pip done
+2022-06-23 18:45:10,782 DEBUG   HandlerThread:50413 [meta.py:probe():247] probe done
+2022-06-23 18:45:10,836 DEBUG   SenderThread:50413 [sender.py:send():235] send: files
+2022-06-23 18:45:10,836 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-23 18:45:10,845 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:45:10,845 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:45:11,067 DEBUG   SenderThread:50413 [sender.py:send():235] send: telemetry
+2022-06-23 18:45:11,559 INFO    Thread-11 :50413 [upload_job.py:push():132] Uploaded file /var/folders/54/062pxv157md83zzypl6cr61mmh0r_v/T/tmpmd1rnlxnwandb/bzpf5gjx-wandb-metadata.json
+2022-06-23 18:45:11,562 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:11,563 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/requirements.txt
+2022-06-23 18:45:11,563 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-metadata.json
+2022-06-23 18:45:11,563 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log
+2022-06-23 18:45:17,578 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log
+2022-06-23 18:45:19,770 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:19,771 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:19,772 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:19,772 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:19,773 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:19,774 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:19,774 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:19,775 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:20,585 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:21,586 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log
+2022-06-23 18:45:23,396 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:23,396 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:23,397 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:23,397 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:23,398 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:23,398 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:23,398 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:23,399 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:23,587 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:26,217 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:45:26,217 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:45:28,889 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:28,890 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:28,891 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:28,891 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:28,893 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:28,893 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:28,893 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:28,894 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:29,605 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:35,299 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:35,299 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:35,300 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:35,301 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:35,302 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:35,303 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:35,303 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:35,304 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:35,619 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:39,366 DEBUG   SenderThread:50413 [sender.py:send():235] send: stats
+2022-06-23 18:45:39,984 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:39,984 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:39,985 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:39,985 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:39,987 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:39,987 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:39,988 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:39,988 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:40,634 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:41,635 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/config.yaml
+2022-06-23 18:45:41,788 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:45:41,788 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:45:47,177 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:47,178 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:47,178 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:47,179 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:47,181 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:47,181 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:47,181 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:47,182 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:47,651 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:50,271 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:50,272 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:50,272 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:50,272 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:50,273 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:50,274 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:50,274 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:50,275 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:50,663 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:52,101 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:52,102 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:52,102 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:52,102 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:52,103 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:52,104 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:52,104 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:52,105 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:52,664 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:53,579 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:53,579 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:53,579 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:53,580 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:53,580 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:53,581 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:53,581 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:53,582 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:53,669 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:55,332 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:55,333 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:55,333 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:55,334 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:55,335 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:55,335 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:55,335 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:55,336 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:55,676 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:57,036 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:45:57,037 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:45:57,413 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:57,414 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:57,414 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:57,415 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:57,416 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:57,416 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:57,416 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:57,417 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:57,678 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:45:58,787 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:58,787 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:58,787 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:58,788 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:45:58,789 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:58,789 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:45:58,789 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:45:58,790 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:45:59,685 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:00,392 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:00,393 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:00,393 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:00,393 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:00,395 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:00,395 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:00,395 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:00,396 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:00,690 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:02,861 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:02,862 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:02,862 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:02,862 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:02,863 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:02,864 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:02,864 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:02,865 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:03,699 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:05,744 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:05,745 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:05,745 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:05,745 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:05,746 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:05,746 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:05,747 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:05,748 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:06,705 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:07,907 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:07,907 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:07,908 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:07,908 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:07,909 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:07,909 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:07,909 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:07,910 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:08,713 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:09,614 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:09,615 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:09,615 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:09,616 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:09,616 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:09,617 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:09,617 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:09,618 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:09,716 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:10,134 DEBUG   SenderThread:50413 [sender.py:send():235] send: stats
+2022-06-23 18:46:12,117 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:12,117 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:12,118 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:12,118 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:12,119 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:12,119 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:12,119 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:12,120 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:12,281 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:46:12,281 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:46:12,724 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:14,560 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:14,560 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:14,561 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:14,561 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:14,562 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:14,562 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:14,562 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:14,563 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:14,726 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:16,570 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:16,570 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:16,570 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:16,571 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:16,572 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:16,572 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:16,572 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:16,573 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:16,728 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:18,744 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:18,744 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:18,745 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:18,746 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:18,747 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:18,748 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:18,748 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:18,749 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:19,743 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:20,965 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:20,965 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:20,966 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:20,966 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:20,967 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:20,967 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:20,967 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:20,968 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:21,750 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:22,517 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:22,518 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:22,518 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:22,518 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:22,519 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:22,519 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:22,520 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:22,521 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:22,754 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:24,930 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:24,931 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:24,931 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:24,932 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:24,933 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:24,933 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:24,933 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:24,934 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:25,765 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:26,575 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:26,576 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:26,576 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:26,576 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:26,577 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:26,577 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:26,577 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:26,578 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:26,770 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:27,610 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:46:27,610 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:46:27,979 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:27,980 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:27,980 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:27,980 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:27,981 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:27,982 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:27,982 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:27,983 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:28,779 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:29,688 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:29,689 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:29,689 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:29,690 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:29,691 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:29,691 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:29,691 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:29,693 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:29,784 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:32,122 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:32,123 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:32,123 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:32,123 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:32,125 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:32,125 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:32,125 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:32,126 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:32,792 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:33,892 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:33,893 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:33,893 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:33,894 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:33,895 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:33,895 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:33,895 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:33,896 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:34,802 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:36,367 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:36,367 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:36,368 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:36,368 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:36,369 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:36,370 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:36,370 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:36,371 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:36,808 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:37,810 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:37,811 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:37,811 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:37,812 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:37,813 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:37,813 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:37,813 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:37,814 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:38,818 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:39,191 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:39,191 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:39,192 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:39,192 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:39,193 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:39,193 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:39,193 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:39,194 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:39,820 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:40,593 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:40,594 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:40,594 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:40,595 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:40,596 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:40,597 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:40,597 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:40,598 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:40,825 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:40,923 DEBUG   SenderThread:50413 [sender.py:send():235] send: stats
+2022-06-23 18:46:42,617 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:42,618 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:42,618 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:42,618 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:42,620 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:42,620 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:42,620 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:42,621 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:42,832 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:42,864 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 18:46:42,864 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: stop_status
+2022-06-23 18:46:44,015 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:44,016 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 18:46:44,016 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:44,016 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:44,017 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:44,018 DEBUG   SenderThread:50413 [sender.py:send():235] send: history
+2022-06-23 18:46:44,018 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:44,019 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:44,837 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:45,552 WARNING MainThread:50413 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-23 18:46:46,277 DEBUG   SenderThread:50413 [sender.py:send():235] send: telemetry
+2022-06-23 18:46:47,845 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log
+2022-06-23 18:46:48,637 DEBUG   SenderThread:50413 [sender.py:send():235] send: exit
+2022-06-23 18:46:48,637 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:48,637 INFO    SenderThread:50413 [sender.py:send_exit():371] handling exit code: 255
+2022-06-23 18:46:48,638 INFO    SenderThread:50413 [sender.py:send_exit():373] handling runtime: 97
+2022-06-23 18:46:48,639 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:48,639 INFO    SenderThread:50413 [sender.py:send_exit():379] send defer
+2022-06-23 18:46:48,639 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:48,640 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:48,640 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-23 18:46:48,640 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:48,640 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-23 18:46:48,640 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 1
+2022-06-23 18:46:48,641 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:48,641 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-23 18:46:48,712 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:48,712 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-23 18:46:48,712 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 2
+2022-06-23 18:46:48,712 DEBUG   SenderThread:50413 [sender.py:send():235] send: stats
+2022-06-23 18:46:48,713 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:48,713 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-23 18:46:48,713 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:48,713 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-23 18:46:48,713 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 3
+2022-06-23 18:46:48,714 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:48,714 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-23 18:46:48,714 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:48,714 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-23 18:46:48,714 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 4
+2022-06-23 18:46:48,714 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:48,714 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-23 18:46:48,715 DEBUG   SenderThread:50413 [sender.py:send():235] send: summary
+2022-06-23 18:46:48,716 INFO    SenderThread:50413 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-23 18:46:48,716 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:48,716 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-23 18:46:48,716 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 5
+2022-06-23 18:46:48,717 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:48,717 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-23 18:46:48,717 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:48,717 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-23 18:46:48,741 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:48,846 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:48,846 INFO    Thread-7  :50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log
+2022-06-23 18:46:49,127 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 6
+2022-06-23 18:46:49,128 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:49,128 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:49,128 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-23 18:46:49,128 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:49,128 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-23 18:46:49,128 INFO    SenderThread:50413 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-06-23 18:46:49,230 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:49,847 INFO    SenderThread:50413 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/config.yaml
+2022-06-23 18:46:49,848 INFO    SenderThread:50413 [dir_watcher.py:finish():366] scan: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files
+2022-06-23 18:46:49,848 INFO    SenderThread:50413 [dir_watcher.py:finish():380] scan save: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/requirements.txt requirements.txt
+2022-06-23 18:46:49,848 INFO    SenderThread:50413 [dir_watcher.py:finish():380] scan save: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log output.log
+2022-06-23 18:46:49,848 INFO    SenderThread:50413 [dir_watcher.py:finish():380] scan save: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/config.yaml config.yaml
+2022-06-23 18:46:49,854 INFO    SenderThread:50413 [dir_watcher.py:finish():380] scan save: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json wandb-summary.json
+2022-06-23 18:46:49,858 INFO    SenderThread:50413 [dir_watcher.py:finish():380] scan save: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-metadata.json wandb-metadata.json
+2022-06-23 18:46:49,861 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 7
+2022-06-23 18:46:49,862 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:49,863 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:49,863 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-23 18:46:49,863 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:49,863 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-23 18:46:49,863 INFO    SenderThread:50413 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-23 18:46:49,964 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:49,964 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,067 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,067 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,169 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,169 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,271 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,272 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,373 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,374 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,476 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,477 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,579 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,580 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,642 INFO    Thread-14 :50413 [upload_job.py:push():132] Uploaded file /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/config.yaml
+2022-06-23 18:46:50,642 INFO    Thread-12 :50413 [upload_job.py:push():132] Uploaded file /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/requirements.txt
+2022-06-23 18:46:50,643 INFO    Thread-15 :50413 [upload_job.py:push():132] Uploaded file /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/wandb-summary.json
+2022-06-23 18:46:50,682 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,682 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,723 INFO    Thread-13 :50413 [upload_job.py:push():132] Uploaded file /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/files/output.log
+2022-06-23 18:46:50,783 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,784 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,885 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:50,885 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:50,926 INFO    Thread-6  :50413 [sender.py:transition_state():392] send defer: 8
+2022-06-23 18:46:50,927 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:50,927 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-23 18:46:50,927 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:50,927 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-23 18:46:50,988 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:51,296 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 9
+2022-06-23 18:46:51,296 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:51,297 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:51,297 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-23 18:46:51,297 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:51,297 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-23 18:46:51,297 INFO    SenderThread:50413 [sender.py:transition_state():392] send defer: 10
+2022-06-23 18:46:51,298 DEBUG   SenderThread:50413 [sender.py:send():235] send: final
+2022-06-23 18:46:51,298 DEBUG   SenderThread:50413 [sender.py:send():235] send: footer
+2022-06-23 18:46:51,298 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 18:46:51,298 INFO    HandlerThread:50413 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-23 18:46:51,299 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: defer
+2022-06-23 18:46:51,299 INFO    SenderThread:50413 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-06-23 18:46:51,398 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 18:46:51,399 DEBUG   SenderThread:50413 [sender.py:send_request():249] send_request: poll_exit
+2022-06-23 18:46:51,399 INFO    SenderThread:50413 [file_pusher.py:join():150] waiting for file pusher
+2022-06-23 18:46:52,103 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-23 18:46:52,105 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-23 18:46:52,105 DEBUG   HandlerThread:50413 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-23 18:46:52,106 INFO    HandlerThread:50413 [handler.py:finish():806] shutting down handler
+2022-06-23 18:46:52,300 INFO    WriterThread:50413 [datastore.py:close():279] close: /Users/farah/Desktop/uni/DRL/RL_assignments/wandb/run-20220623_184508-27b8v16o/run-27b8v16o.wandb
+2022-06-23 18:46:53,007 INFO    SenderThread:50413 [sender.py:finish():1111] shutting down sender
+2022-06-23 18:46:53,007 INFO    SenderThread:50413 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-23 18:46:53,007 INFO    SenderThread:50413 [file_pusher.py:join():150] waiting for file pusher
+2022-06-23 18:46:53,011 INFO    MainThread:50413 [internal.py:handle_exit():80] Internal process exited

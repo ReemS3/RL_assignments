@@ -1,0 +1,20 @@
+WARNING:tensorflow:5 out of the last 6 calls to <function NeuralNetwork.call at 0x134e7b670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 7 calls to <function NeuralNetwork.call at 0x134f20a60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: 15.187146906758827 eps: 0.989901 avg reward (last 100): 15.187146906758827 episode loss:  32.824474
+episode: 100 episode reward: -42.484325126028494 eps: 0.980050830419928 avg reward (last 100): -170.8507188408618 episode loss:  121.13776
+episode: 200 episode reward: -146.99227141473244 eps: 0.9702986765411791 avg reward (last 100): -179.86687249188307 episode loss:  153.41397
+episode: 300 episode reward: -76.78905959794639 eps: 0.960643563042708 avg reward (last 100): -168.27552816214575 episode loss:  103.47161
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 126, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 113, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 44, in sample
+    loss = self.train()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 72, in train
+    self.train_network.optimizer.apply_gradients(zip(gradients, variables))
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/optimizers/optimizer_v2/optimizer_v2.py", line 678, in apply_gradients
+    return tf.__internal__.distribute.interim.maybe_merge_call(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/distribute/merge_call_interim.py", line 29, in maybe_merge_call
+    @tf_export("__internal__.distribute.interim.maybe_merge_call", v1=[])
+KeyboardInterrupt

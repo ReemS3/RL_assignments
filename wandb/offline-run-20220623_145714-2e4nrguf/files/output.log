@@ -1,0 +1,62 @@
+WARNING:tensorflow:5 out of the last 5 calls to <function NeuralNetwork.call at 0x13ac05670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function NeuralNetwork.call at 0x13acaaa60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 125, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 113, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 44, in sample
+    loss = self.train()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 68, in train
+    self.train_network(states) * tf.one_hot(actions, 4), axis=1)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/training.py", line 490, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/base_layer.py", line 1014, in __call__
+    outputs = call_fn(inputs, *args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 92, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 947, in _call
+    return self._stateless_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2453, in __call__
+    return graph_function._call_flat(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1866, in _call_flat
+    forward_function, args_with_tangents = forward_backward.forward()
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1397, in forward
+    forward_function = self._functions.forward(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1129, in forward
+    self._forward_and_backward_functions(inference_args, input_tangents))
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1280, in _forward_and_backward_functions
+    return self._build_functions_for_outputs(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 849, in _build_functions_for_outputs
+    gradients_wrt_inputs = gradients_util._GradientsHelper(  # pylint: disable=protected-access
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/gradients_util.py", line 695, in _GradientsHelper
+    in_grads = _MaybeCompile(grad_scope, op, func_call,
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/gradients_util.py", line 328, in _MaybeCompile
+    return grad_fn()  # Exit early
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/gradients_util.py", line 696, in <lambda>
+    lambda: grad_fn(op, *out_grads))
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/nn_grad.py", line 298, in _SoftmaxGrad
+    return (grad_softmax - sum_channels) * softmax
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/math_ops.py", line 1406, in binary_op_wrapper
+    return func(x, y, name=name)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/math_ops.py", line 548, in subtract
+    return gen_math_ops.sub(x, y, name)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/gen_math_ops.py", line 11181, in sub
+    _execute.record_gradient(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/backprop.py", line 180, in record_gradient
+    pywrap_tfe.TFE_Py_RecordGradient(op_name, inputs, attrs, outputs,
+KeyboardInterrupt

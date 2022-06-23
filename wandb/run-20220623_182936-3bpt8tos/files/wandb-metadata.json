@@ -1,0 +1,22 @@
+{
+    "os": "macOS-12.4-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-06-23T16:29:38.142575",
+    "startedAt": "2022-06-23T16:29:36.459757",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py",
+    "codePath": "week_4/DQN.py",
+    "git": {
+        "remote": "git@github.com:ReemS3/RL_assignments.git",
+        "commit": "d03c24d309d4bc3f577d9fd67ac9b4e2968ca4b5"
+    },
+    "email": "reemfarah96@gmail.com",
+    "root": "/Users/farah/Desktop/uni/DRL/RL_assignments",
+    "host": "NB324.local",
+    "username": "farah",
+    "executable": "/Users/farah/venv/DRL/bin/python3"
+}

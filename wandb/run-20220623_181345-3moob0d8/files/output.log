@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 126, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 113, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 40, in sample
+    self.env.render()
+AttributeError: 'DQN' object has no attribute 'env'

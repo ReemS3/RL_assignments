@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 574, in render
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 143, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 128, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 41, in sample
+    env.render()
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/core.py", line 343, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/wrappers/order_enforcing.py", line 51, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/wrappers/env_checker.py", line 55, in render
+    return passive_env_render_check(self.env, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/utils/passive_env_checker.py", line 310, in passive_env_render_check
+    return env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 577, in render
+    raise DependencyNotInstalled(

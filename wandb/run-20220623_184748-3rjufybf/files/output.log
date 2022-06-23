@@ -1,0 +1,41 @@
+WARNING:tensorflow:5 out of the last 5 calls to <function NeuralNetwork.call at 0x133fd6670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function NeuralNetwork.call at 0x13407aa60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: -111.40560125482207 eps: 0.989901 avg reward (last 100): -111.40560125482207 episode loss:  2.2913704
+episode: 100 episode reward: -185.19935207571223 eps: 0.980050830419928 avg reward (last 100): -179.73216275770125 episode loss:  131.37509
+episode: 200 episode reward: -272.47242725589285 eps: 0.9702986765411791 avg reward (last 100): -176.758921069799 episode loss:  178.59859
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 143, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 128, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 45, in sample
+    loss = self.train()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 62, in train
+    value_next = np.max(self.target_network(states_next), axis=1)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/training.py", line 490, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/base_layer.py", line 1014, in __call__
+    outputs = call_fn(inputs, *args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 92, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 947, in _call
+    return self._stateless_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2453, in __call__
+    return graph_function._call_flat(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1860, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 534, in call
+    handle_data_util.copy_handle_data(func_graph_output, outputs[i])
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/ops/handle_data_util.py", line 40, in copy_handle_data
+    if (target_t.dtype == dtypes.resource or
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 1133, in dtype
+    return dtypes._INTERN_TABLE[self._datatype_enum()]  # pylint: disable=protected-access
+KeyboardInterrupt
