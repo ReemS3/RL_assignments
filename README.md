@@ -7,5 +7,5 @@
   3. Review of group 38: [click here](https://docs.google.com/document/d/1a9bsWSi7Qy33a6DCVC2_LL5p61VcFs5Muu4eKRDkhPQ/edit?usp=sharing).
 
 ## Reviews of the second assignment:
-  2. Review of group 37: [click here](https://docs.google.com/document/d/1zavPsYhRTxLldvB2dgnKQT_ywEHMgTMvbyESneLcljM/edit?usp=sharing). 
+  1. Review of group 37: [click here](https://docs.google.com/document/d/1v0-ryJjDaCnshPvOW3zBNbuS3IGU6s0JXfMsB4ldk_E/edit?usp=sharing). 
 ## Reviews of the third assignment:
