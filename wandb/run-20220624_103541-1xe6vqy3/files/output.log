@@ -1,0 +1,53 @@
+
+WARNING:tensorflow:5 out of the last 6 calls to <function NeuralNetwork.call at 0x13183b5e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 7 calls to <function NeuralNetwork.call at 0x1318de9d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: -112.02563763124515 epsilon: 0.989901 avg reward (last 25): -112.02563763124515 episode loss:  1.9031168
+episode: 25 episode reward: -358.30824649407293 epsilon: 0.9874292149274797 avg reward (last 25): -175.06371253531253 episode loss:  110.29331
+episode: 50 episode reward: -241.61035189623934 epsilon: 0.9849636019079675 avg reward (last 25): -182.40304370700812 episode loss:  131.1338
+episode: 75 episode reward: -343.17737355939437 epsilon: 0.9825041455298329 avg reward (last 25): -177.60448099308186 episode loss:  116.01015
+episode: 100 episode reward: -83.37897959067166 epsilon: 0.980050830419928 avg reward (last 25): -173.1593678950611 episode loss:  129.67502
+episode: 125 episode reward: -104.78644884897669 epsilon: 0.9776036412434921 avg reward (last 25): -166.58644989084877 episode loss:  130.89223
+episode: 150 episode reward: -124.81390877827978 epsilon: 0.9751625627040549 avg reward (last 25): -150.01645983047132 episode loss:  146.42552
+episode: 175 episode reward: -179.4604325691314 epsilon: 0.9727275795433421 avg reward (last 25): -152.47056029066476 episode loss:  135.32098
+episode: 200 episode reward: -161.39332139088555 epsilon: 0.9702986765411791 avg reward (last 25): -160.18985445422152 episode loss:  116.687515
+episode: 225 episode reward: -94.00483834159563 epsilon: 0.9678758385153959 avg reward (last 25): -168.8410994895634 episode loss:  133.5165
+episode: 250 episode reward: -366.19019389865974 epsilon: 0.9654590503217328 avg reward (last 25): -180.11224736423875 episode loss:  106.324875
+episode: 275 episode reward: -258.71792279125486 epsilon: 0.9630482968537447 avg reward (last 25): -175.45693117275513 episode loss:  112.18195
+episode: 300 episode reward: -236.45522184765557 epsilon: 0.960643563042708 avg reward (last 25): -168.45766515759541 episode loss:  130.57571
+episode: 325 episode reward: -230.85552957142252 epsilon: 0.9582448338575251 avg reward (last 25): -170.18236754204307 episode loss:  177.25528
+episode: 350 episode reward: -154.26468765124835 epsilon: 0.9558520943046319 avg reward (last 25): -166.15189535358633 episode loss:  141.25085
+episode: 375 episode reward: -129.30953801775047 epsilon: 0.9534653294279022 avg reward (last 25): -163.45356798348305 episode loss:  114.005844
+episode: 400 episode reward: -36.28249815962474 epsilon: 0.9510845243085565 avg reward (last 25): -159.14889467434656 episode loss:  128.22589
+episode: 425 episode reward: -235.14910684257228 epsilon: 0.9487096640650665 avg reward (last 25): -149.23108784730314 episode loss:  129.3468
+episode: 450 episode reward: -246.24270034796376 epsilon: 0.9463407338530638 avg reward (last 25): -166.15226248057087 episode loss:  144.5484
+episode: 475 episode reward: -343.25091060433385 epsilon: 0.943977718865246 avg reward (last 25): -162.93789834361436 episode loss:  111.373436
+episode: 500 episode reward: -257.6430908156744 epsilon: 0.9416206043312847 avg reward (last 25): -166.90929714383697 episode loss:  114.839005
+episode: 525 episode reward: -124.10550620584729 epsilon: 0.9392693755177329 avg reward (last 25): -169.3243163834331 episode loss:  105.78797
+episode: 550 episode reward: -114.73750378606383 epsilon: 0.9369240177279338 avg reward (last 25): -165.45488780825698 episode loss:  128.00995
+episode: 575 episode reward: -120.65586636879273 epsilon: 0.934584516301927 avg reward (last 25): -169.07115721356465 episode loss:  113.91813
+episode: 600 episode reward: -78.45035152348086 epsilon: 0.9322508566163586 avg reward (last 25): -163.98801253754897 episode loss:  123.12261
+episode: 625 episode reward: -118.69816419470384 epsilon: 0.92992302408439 avg reward (last 25): -167.50526624776774 episode loss:  126.31056
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 179, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 150, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 45, in sample
+    loss = self.train()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 69, in train
+    value_next = np.max(self.target_network(states_next), axis=1)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/training.py", line 490, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 64, in error_handler
+    return fn(*args, **kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/base_layer.py", line 979, in __call__
+    self._clear_losses()
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/base_layer.py", line 2169, in _clear_losses
+    for layer in self._flatten_layers():
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/base_layer.py", line 2944, in _flatten_layers
+    for m in self._flatten_modules(
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/keras/engine/base_layer.py", line 2968, in _flatten_modules
+    trackable_obj = deque.popleft()
+KeyboardInterrupt

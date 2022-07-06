@@ -1,0 +1,25 @@
+WARNING:tensorflow:5 out of the last 5 calls to <function NeuralNetwork.call at 0x12e9ec670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function NeuralNetwork.call at 0x12ea91a60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: -128.07567652820302 epsilon: 0.989901 avg reward (last 100): -128.07567652820302 episode loss:  1.8355957
+episode: 100 episode reward: -400.87637424439544 epsilon: 0.980050830419928 avg reward (last 100): -177.72245322256788 episode loss:  136.36046
+episode: 200 episode reward: -193.0317466344739 epsilon: 0.9702986765411791 avg reward (last 100): -162.21989537429445 episode loss:  111.92583
+episode: 300 episode reward: -370.6246031245547 epsilon: 0.960643563042708 avg reward (last 100): -164.89109181134359 episode loss:  136.96004
+episode: 400 episode reward: -88.17514133234994 epsilon: 0.9510845243085565 avg reward (last 100): -167.74898468629786 episode loss:  157.6355
+episode: 500 episode reward: -159.3172178981414 epsilon: 0.9416206043312847 avg reward (last 100): -157.94134844470898 episode loss:  94.04861
+episode: 600 episode reward: -280.0449335632552 epsilon: 0.9322508566163586 avg reward (last 100): -185.84955644359462 episode loss:  152.81013
+episode: 700 episode reward: -75.44270546746776 epsilon: 0.9229743440874912 avg reward (last 100): -150.9893438631927 episode loss:  115.109055
+episode: 800 episode reward: -119.46843598840638 epsilon: 0.913790138992923 avg reward (last 100): -179.07291461478414 episode loss:  127.56207
+episode: 900 episode reward: -68.90917348211586 epsilon: 0.9046973228126401 avg reward (last 100): -157.79834262139036 episode loss:  117.498955
+episode: 1000 episode reward: -75.1732798633095 epsilon: 0.8956949861665088 avg reward (last 100): -151.7917015568066 episode loss:  123.94856
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 176, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 147, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 44, in sample
+    loss = self.train()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 66, in train
+    rewards = np.asarray([self.buffer.buffer[i][2] for i in ids])
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 66, in <listcomp>
+    rewards = np.asarray([self.buffer.buffer[i][2] for i in ids])
+KeyboardInterrupt

@@ -1,0 +1,80 @@
+WARNING:tensorflow:5 out of the last 8 calls to <function NeuralNetwork.call at 0x13bc3b5e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 9 calls to <function NeuralNetwork.call at 0x13bce09d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+episode: 0 episode reward: -481.86493039509617 epsilon: 0.989901 avg reward (last 25): -481.86493039509617 episode loss:  17.640293
+episode: 25 episode reward: -457.3569980475089 epsilon: 0.9874292149274797 avg reward (last 25): -231.0346728571247 episode loss:  50.484226
+episode: 50 episode reward: -201.5685965272502 epsilon: 0.9849636019079675 avg reward (last 25): -243.43430172748444 episode loss:  92.337166
+episode: 75 episode reward: -362.0537408844795 epsilon: 0.9825041455298329 avg reward (last 25): -238.70580662979313 episode loss:  63.632607
+episode: 100 episode reward: -167.79399373585238 epsilon: 0.980050830419928 avg reward (last 25): -237.69316460746865 episode loss:  92.09732
+episode: 125 episode reward: -293.53274253963974 epsilon: 0.9776036412434921 avg reward (last 25): -235.85958141905863 episode loss:  99.4837
+episode: 150 episode reward: -462.1238272730894 epsilon: 0.9751625627040549 avg reward (last 25): -252.14217554136957 episode loss:  90.424835
+episode: 175 episode reward: -504.36650701890744 epsilon: 0.9727275795433421 avg reward (last 25): -287.20361714288276 episode loss:  102.64313
+episode: 200 episode reward: -395.30104955594595 epsilon: 0.9702986765411791 avg reward (last 25): -302.66045393003753 episode loss:  81.46869
+episode: 225 episode reward: -214.9702456451755 epsilon: 0.9678758385153959 avg reward (last 25): -330.7263198848874 episode loss:  89.36212
+episode: 250 episode reward: -370.48903450073334 epsilon: 0.9654590503217328 avg reward (last 25): -331.3994168165637 episode loss:  87.59816
+episode: 275 episode reward: -345.8396878124767 epsilon: 0.9630482968537447 avg reward (last 25): -332.724827156008 episode loss:  97.897766
+episode: 300 episode reward: -250.0496839705851 epsilon: 0.960643563042708 avg reward (last 25): -349.5599367240992 episode loss:  98.800804
+episode: 325 episode reward: -158.43868950185714 epsilon: 0.9582448338575251 avg reward (last 25): -335.96784408955165 episode loss:  91.71582
+episode: 350 episode reward: -265.67816040045517 epsilon: 0.9558520943046319 avg reward (last 25): -343.3045554762335 episode loss:  121.02972
+episode: 375 episode reward: -564.5204661413927 epsilon: 0.9534653294279022 avg reward (last 25): -345.00820193918133 episode loss:  46.727478
+episode: 400 episode reward: -468.7896642318433 epsilon: 0.9510845243085565 avg reward (last 25): -330.53326844828223 episode loss:  131.76724
+episode: 425 episode reward: -145.33712760286906 epsilon: 0.9487096640650665 avg reward (last 25): -322.57333017545335 episode loss:  77.59865
+episode: 450 episode reward: -507.5135244190992 epsilon: 0.9463407338530638 avg reward (last 25): -321.0926131629115 episode loss:  114.10473
+episode: 475 episode reward: -355.4733013744104 epsilon: 0.943977718865246 avg reward (last 25): -323.304315608059 episode loss:  100.12495
+episode: 500 episode reward: -252.25471745811717 epsilon: 0.9416206043312847 avg reward (last 25): -326.8863848832002 episode loss:  100.49847
+episode: 525 episode reward: -138.17266080587478 epsilon: 0.9392693755177329 avg reward (last 25): -340.0438679377603 episode loss:  82.37624
+episode: 550 episode reward: -107.53568949940149 epsilon: 0.9369240177279338 avg reward (last 25): -335.417910253503 episode loss:  93.22646
+episode: 575 episode reward: -254.88547931075178 epsilon: 0.934584516301927 avg reward (last 25): -286.7807604054504 episode loss:  82.41504
+episode: 600 episode reward: -256.73066261773823 epsilon: 0.9322508566163586 avg reward (last 25): -265.3618511711315 episode loss:  85.95585
+episode: 625 episode reward: -101.05170346648536 epsilon: 0.92992302408439 avg reward (last 25): -230.6900834791555 episode loss:  94.0475
+episode: 650 episode reward: -225.38647863888303 epsilon: 0.9276010041556046 avg reward (last 25): -195.38753780083294 episode loss:  102.09541
+episode: 675 episode reward: -180.81535395307935 epsilon: 0.9252847823159189 avg reward (last 25): -198.97606497096208 episode loss:  62.116623
+episode: 700 episode reward: -304.98731225195627 epsilon: 0.9229743440874912 avg reward (last 25): -178.32674122234644 episode loss:  82.6951
+episode: 725 episode reward: -100.18526799471225 epsilon: 0.9206696750286308 avg reward (last 25): -191.21424421982294 episode loss:  70.49512
+episode: 750 episode reward: -335.80830270510626 epsilon: 0.9183707607337083 avg reward (last 25): -202.02986459621962 episode loss:  62.282738
+episode: 775 episode reward: -228.62239091455098 epsilon: 0.9160775868330652 avg reward (last 25): -196.49952963760893 episode loss:  81.18934
+episode: 800 episode reward: -196.0830984714729 epsilon: 0.913790138992923 avg reward (last 25): -206.8842800932786 episode loss:  76.22348
+episode: 825 episode reward: -253.17232834921217 epsilon: 0.9115084029152961 avg reward (last 25): -192.8363388966073 episode loss:  84.45219
+episode: 850 episode reward: -271.6524657641421 epsilon: 0.9092323643378999 avg reward (last 25): -195.12107969977401 episode loss:  72.93538
+episode: 875 episode reward: -196.80319047727738 epsilon: 0.9069620090340638 avg reward (last 25): -204.48125053840127 episode loss:  86.039825
+episode: 900 episode reward: -320.44324355535946 epsilon: 0.9046973228126401 avg reward (last 25): -201.13428139983924 episode loss:  87.07985
+episode: 925 episode reward: -205.95441327929407 epsilon: 0.9024382915179172 avg reward (last 25): -209.40538965415885 episode loss:  84.797935
+episode: 950 episode reward: -505.508610764162 epsilon: 0.9001849010295303 avg reward (last 25): -227.65120576525794 episode loss:  75.65427
+episode: 975 episode reward: -132.21042501192164 epsilon: 0.8979371372623728 avg reward (last 25): -231.09352953305645 episode loss:  24.416473
+episode: 1000 episode reward: -197.11493606384371 epsilon: 0.8956949861665088 avg reward (last 25): -258.42099614125794 episode loss:  86.41825
+episode: 1025 episode reward: -211.23059083744175 epsilon: 0.8934584337270853 avg reward (last 25): -254.1633775325992 episode loss:  49.00869
+episode: 1050 episode reward: -266.31659608754546 epsilon: 0.8912274659642445 avg reward (last 25): -226.93005926155482 episode loss:  82.48116
+episode: 1075 episode reward: -337.89536258227525 epsilon: 0.8890020689330353 avg reward (last 25): -232.90435467819944 episode loss:  62.3421
+episode: 1100 episode reward: -163.6783359027059 epsilon: 0.8867822287233291 avg reward (last 25): -201.20860504261864 episode loss:  59.62489
+episode: 1125 episode reward: -150.20537551713173 epsilon: 0.8845679314597295 avg reward (last 25): -201.03266794159003 episode loss:  52.360363
+episode: 1150 episode reward: -128.91044500616488 epsilon: 0.8823591633014869 avg reward (last 25): -207.9518325486214 episode loss:  47.246124
+episode: 1175 episode reward: -220.14136675284539 epsilon: 0.8801559104424131 avg reward (last 25): -185.67392803722453 episode loss:  72.64956
+episode: 1200 episode reward: -89.06121358295889 epsilon: 0.877958159110793 avg reward (last 25): -182.72313784266174 episode loss:  80.76117
+episode: 1225 episode reward: -261.02054280104574 epsilon: 0.8757658955692998 avg reward (last 25): -188.39806877670196 episode loss:  65.51994
+episode: 1250 episode reward: -133.74503321213442 epsilon: 0.8735791061149091 avg reward (last 25): -198.93544021732816 episode loss:  90.89708
+episode: 1275 episode reward: -291.086151169517 epsilon: 0.8713977770788133 avg reward (last 25): -219.71399187892447 episode loss:  73.35754
+episode: 1300 episode reward: -292.30572140955593 epsilon: 0.8692218948263346 avg reward (last 25): -236.73129829706053 episode loss:  71.74088
+episode: 1325 episode reward: -415.8271795409894 epsilon: 0.8670514457568425 avg reward (last 25): -240.86719027789903 episode loss:  59.969257
+episode: 1350 episode reward: -435.7801636917998 epsilon: 0.8648864163036659 avg reward (last 25): -236.07072199122948 episode loss:  59.619667
+episode: 1375 episode reward: -367.3779365661483 epsilon: 0.8627267929340104 avg reward (last 25): -262.7852747969515 episode loss:  84.9257
+episode: 1400 episode reward: -224.89883608859685 epsilon: 0.8605725621488737 avg reward (last 25): -260.82865106084995 episode loss:  77.98147
+episode: 1425 episode reward: -176.66585391002667 epsilon: 0.8584237104829594 avg reward (last 25): -253.47625725827578 episode loss:  92.770935
+episode: 1450 episode reward: -131.6657096801238 epsilon: 0.8562802245045947 avg reward (last 25): -258.8594928469597 episode loss:  102.976875
+episode: 1475 episode reward: -634.5519471715669 epsilon: 0.8541420908156451 avg reward (last 25): -255.73227890384413 episode loss:  103.7441
+episode: 1500 episode reward: -311.0188427176874 epsilon: 0.8520092960514319 avg reward (last 25): -270.70260268477705 episode loss:  107.59944
+episode: 1525 episode reward: -403.0620510368867 epsilon: 0.8498818268806474 avg reward (last 25): -281.2841561835667 episode loss:  85.56421
+Traceback (most recent call last):
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 179, in <module>
+    main()
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 150, in main
+    episode_reward, losses = dqn.sample(env, epsilon)
+  File "/Users/farah/Desktop/uni/DRL/RL_assignments/week_4/DQN.py", line 42, in sample
+    env.render()
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/core.py", line 343, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/wrappers/order_enforcing.py", line 51, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/wrappers/env_checker.py", line 57, in render
+    return self.env.render(**kwargs)
+  File "/Users/farah/venv/DRL/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 671, in render
+    self.clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt
