@@ -8,5 +8,8 @@
 
 ## Reviews of the second assignment:
   1. Review of group 37: [click here](https://docs.google.com/document/d/1v0-ryJjDaCnshPvOW3zBNbuS3IGU6s0JXfMsB4ldk_E/edit?usp=sharing). 
+  2. Review of group 11: see dir week_3
+  
 ## Reviews of the third assignment:
   1. Review of group 37: [click here](https://docs.google.com/document/d/1vQgELNHbtXBUutr7J96W6vTSQb6YXnvUGq6LROjwOIk/edit?usp=sharing)
+  2. Review of group 11: see dir week_4
