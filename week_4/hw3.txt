@@ -1,0 +1,3 @@
+- well structured and commented. If you want to further improve on that point, consider using more functions/classes and mark-down-style headings.
+- code runs smoothly and relatively fast, agent learns, though it is not perfect
+- you use a lot of top-level functions, e.g. for the dqn-agent  and the buffer, which is pretty cool, but at least in the case of DQN maybe not the best for understanding the underlying algorithm
